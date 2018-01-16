@@ -51,7 +51,7 @@ class Playing: GKState {
     return stateClass is GameOver.Type
   }
     func randomDirection() -> CGFloat {
-        let speedFactor: CGFloat = 3.0
+        let speedFactor: CGFloat = 2.0
         if scene.randomFloat(from: 0.0, to: 100.0) >= 50 {
             return -speedFactor
         } else {
